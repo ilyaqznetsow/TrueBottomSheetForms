@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TrueBottomSheetForms.MainPage">
+    <StackLayout Padding="20" Spacing="10" VerticalOptions="CenterAndExpand">
+        <Button x:Name="staticPush" Text="Static fullscreen page" Clicked="staticPush_Clicked" VerticalOptions="Center"/>
+        <Button x:Name="bottomPush" Text="Static bottom page" Clicked="bottomPush_Clicked" VerticalOptions="Center"/>
+        <Button x:Name="collectionPush" Text="CollectionView page" Clicked="collectionPush_Clicked" VerticalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
